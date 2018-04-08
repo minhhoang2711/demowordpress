@@ -1,0 +1,576 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: upPrev v3.3.12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-02-28 23:17+0100\n"
+"Last-Translator: Daniel <daniel.schmidt.sk@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: sk\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ upprev
+#: admin/index.php:3 upprev.php:212 upprev.php:213 upprev.php:528
+msgid "upPrev"
+msgstr "upPrev"
+
+# @ upprev
+#: admin/index.php:7
+msgid "upPrev options saved."
+msgstr "Nastavenie upPrev uložené."
+
+# @ upprev
+#: admin/index.php:24
+msgid "Loved this Plugin?"
+msgstr "Páči sa ti tento plugin?"
+
+# @ upprev
+#: admin/index.php:26
+msgid "Below are some links to help spread this plugin to other users"
+msgstr "Nižšie je pár odkazov, ktoré pomôžu upozorniť na plugin aj ostatních."
+
+# @ upprev
+#: admin/index.php:28
+msgid "Give it a 5 star on Wordpress.org"
+msgstr "Ohodnoť plugin na Wordpress.org 5 hviezdami."
+
+# @ upprev
+#: admin/index.php:29
+msgid "Link to it so others can easily find it"
+msgstr "Odkáž na plugin, aby ho ostatní ľahko našli."
+
+# @ upprev
+#: admin/index.php:34
+msgid "Need Assistance?"
+msgstr "Potrebuješ poradiť?"
+
+# @ upprev
+#: admin/index.php:36
+msgid "Problems? The links bellow can be very helpful to you"
+msgstr "Máš problém? Odkazy nižšie ti môžu pomôcť"
+
+# @ upprev
+#: admin/index.php:38
+msgid "http://wordpress.org/tags/upprev"
+msgstr "http://wordpress.org/tags/upprev"
+
+# @ upprev
+#: admin/index.php:38
+msgid "Wordpress Help Forum"
+msgstr "Wordpress Help Forum"
+
+# @ default
+#: includes/common.php:18
+msgid "<p>upPrev settings allows you to set the proprites of user notification showed when reader scroll down the page.</p>"
+msgstr "<p>upPrev nastavenie umožňuje nastaviť vlastnosti upozornenia užívateľa na displeji v okamihu, keď sa čitateľ posunie nižšie na stránke.</p>"
+
+# @ iworks
+#: includes/iworks.options.class.php:58
+msgid "An error occurred while getting the configuration."
+msgstr "Objavila sa chyba pri získavaní nastavenia"
+
+# @ default
+#: includes/iworks.options.class.php:309
+msgid "Save Changes"
+msgstr "Ulož zmeny"
+
+# @ upprev
+#: includes/options.php:27 includes/options.php:43
+msgid "Apperance"
+msgstr "Vzhľad"
+
+# @ upprev
+#: includes/options.php:33
+msgid "Schema"
+msgstr "Schéma"
+
+# @ upprev
+#: includes/options.php:36 includes/options.php:52
+msgid "flyout"
+msgstr "Prichádzajúci"
+
+# @ upprev
+#: includes/options.php:37 includes/options.php:53
+msgid "fade in/out"
+msgstr "Plynulé objavenie/zmiznutie"
+
+# @ upprev
+#: includes/options.php:49
+msgid "Animation style"
+msgstr "Typ animácie"
+
+# @ upprev
+#: includes/options.php:60
+msgid "Position"
+msgstr "Umiestnenie"
+
+# @ upprev
+#: includes/options.php:63
+msgid "right"
+msgstr "vpravo"
+
+# @ upprev
+#: includes/options.php:64
+msgid "left"
+msgstr "vľavo"
+
+# @ upprev
+#: includes/options.php:72
+msgid "Margin bottom"
+msgstr "Medzera dole"
+
+# @ upprev
+#: includes/options.php:73 includes/options.php:82 includes/options.php:92
+msgid "px"
+msgstr "pixelov"
+
+# @ upprev
+#: includes/options.php:81
+msgid "Margin side"
+msgstr "Medzera na strane"
+
+# @ upprev
+#: includes/options.php:83
+msgid "Left or right depending on position."
+msgstr "Vľavo alebo vpravo podľa umiestnenia."
+
+# @ upprev
+#: includes/options.php:91
+msgid "Box width"
+msgstr "Šírka bubliny"
+
+# @ upprev
+#: includes/options.php:100
+msgid "Offset"
+msgstr "Veľkosť posunu"
+
+# @ upprev
+#: includes/options.php:101
+msgid "%"
+msgstr "%"
+
+# @ upprev
+#: includes/options.php:102
+msgid "Percentage of the page required to be scrolled to display a box."
+msgstr "Koľko percent stránky musí byť posunuté, keď sa objaví bublina."
+
+# @ upprev
+#: includes/options.php:110
+msgid "Before HTML element."
+msgstr "Pred HTML elementom."
+
+# @ upprev
+#: includes/options.php:111
+msgid "If empty, all page length is taken for calculation. If not empty, make sure to use the ID or class of an existing element. Put # \"hash\" before the ID, or . \"dot\" before a class name."
+msgstr "Keď je prázdne, je pre výpočet použitá celá dĺžka strany. Keď je vyplnené, uisti sa, že ide o ID existujúceho prvku alebo CSS triedy. Daj znak # pred ID prvku, a . (bodku) pred meno CSS triedy."
+
+# @ upprev
+#: includes/options.php:118
+msgid "Box header"
+msgstr "Hlavička bubliny"
+
+# @ upprev
+#: includes/options.php:119
+msgid "Show box header."
+msgstr "Ukázať hlavičku bubliny."
+
+# @ upprev
+#: includes/options.php:126
+msgid "Close button"
+msgstr "Tlačítko Zavrieť."
+
+# @ upprev
+#: includes/options.php:127
+msgid "Show close button."
+msgstr "Ukáž tlačítko Zavrieť."
+
+# @ upprev
+#: includes/options.php:135
+msgid "Custom CSS"
+msgstr "Vlastné CSS"
+
+# @ upprev
+#: includes/options.php:166
+msgid "Content"
+msgstr "Obsah"
+
+# @ upprev
+#: includes/options.php:173
+msgid "Number of posts to show "
+msgstr "Koľko príspevkov ukázať"
+
+# @ upprev
+#: includes/options.php:174
+msgid "Not affected if using YARPP as choose method and YARPP version is lower than 4.0."
+msgstr "Nemá vplyv, ak je použitý výber príspevkov pomocou YARPP a verzia YARPP je menšia než 4.0."
+
+# @ upprev
+#: includes/options.php:181
+msgid "Content filters"
+msgstr "Filtrovanie obsahu"
+
+# @ upprev
+#: includes/options.php:182
+msgid "Remove all filters."
+msgstr "Odstrániť všetky filtre"
+
+# @ upprev
+#: includes/options.php:183
+msgid "Untick this if you have some strange things in upPrev box, but unticked have a lot of chances breaks your layout."
+msgstr "Zruš zaškrtnutie, ak je v bubline podivný obsah. Ale pozor, môže to pokazť celú stránku."
+
+# @ upprev
+#: includes/options.php:190
+msgid "Previous entry choose method"
+msgstr "Zpôsob výberu Predchádzajúcich príspevkov"
+
+# @ upprev
+#: includes/options.php:193
+msgid "Just previous."
+msgstr "Predchádzajúci podľa času"
+
+# @ upprev
+#: includes/options.php:194
+msgid "Previous in category."
+msgstr "Predchádzajúci v kategórii"
+
+# @ upprev
+#: includes/options.php:195
+msgid "Previous in tag."
+msgstr "Predchádzajúci podľa štítku"
+
+# @ upprev
+#: includes/options.php:196
+msgid "Random entry."
+msgstr "Náhodný"
+
+# @ upprev
+#: includes/options.php:205
+msgid "Taxonomy limit"
+msgstr "Počet klasifikačních značek"
+
+# @ upprev
+#: includes/options.php:206
+msgid "Number of taxonomies (tags or categories) to show."
+msgstr "Počet zobrazovaných štítkov alebo kategorií."
+
+# @ upprev
+#: includes/options.php:207
+msgid "Default value: 0 (no limit)."
+msgstr "Štandardná hodnota: 0 (bez obmedzenia)."
+
+# @ upprev
+#: includes/options.php:214
+msgid "Match post type"
+msgstr "Rovnaký typ príspevkov"
+
+# @ upprev
+#: includes/options.php:215
+msgid "Display only for selected post types."
+msgstr "Zobrazuj len vybrané typy príspevkov"
+
+# @ upprev
+#: includes/options.php:222
+msgid "Select post types"
+msgstr "Vyber typy príspevkov"
+
+# @ upprev
+#: includes/options.php:223
+msgid "Show posts."
+msgstr "Ukáž príspevky."
+
+# @ upprev
+#: includes/options.php:224
+msgid "If not any, then default value is \"post\"."
+msgstr "Ak nie je vybraté nič, zobrazia sa bežné príspevky."
+
+# @ upprev
+#: includes/options.php:227
+msgid "Posts."
+msgstr "Príspevky."
+
+# @ upprev
+#: includes/options.php:228
+msgid "Pages."
+msgstr "Stránky."
+
+# @ upprev
+#: includes/options.php:229
+msgid "Any post type (include custom post types)."
+msgstr "Všetky typy príspevkov včetne vlastných typov."
+
+# @ upprev
+#: includes/options.php:239
+msgid "Sticky posts"
+msgstr "Zvýraznené príspevky"
+
+# @ upprev
+#: includes/options.php:240
+msgid "Ignore sticky posts."
+msgstr "Ignoruj zvýraznené príspevky."
+
+# @ upprev
+#: includes/options.php:250
+msgid "Excerpt"
+msgstr "Stručný obsah"
+
+# @ upprev
+#: includes/options.php:251
+msgid "Show excerpt."
+msgstr "Zobraz stručný obsah príspevku."
+
+# @ upprev
+#: includes/options.php:260
+msgid "Number of words to show."
+msgstr "Zobraziť počet slov z príspevku. "
+
+# @ upprev
+#: includes/options.php:269
+msgid "Featured image"
+msgstr "Náhľadový obrázek"
+
+# @ upprev
+#: includes/options.php:270
+msgid "Show featured image."
+msgstr "Ukáž náhľadový obrázok"
+
+# @ upprev
+#: includes/options.php:279
+msgid "Featured image width."
+msgstr "Šírka náhľadového obrázku."
+
+# @ upprev
+#: includes/options.php:289
+msgid "Links"
+msgstr "Odkazy"
+
+# @ upprev
+#: includes/options.php:295
+msgid "URL prefix"
+msgstr "Prefix odkazu"
+
+# @ upprev
+#: includes/options.php:297
+msgid "Will be added before link."
+msgstr "Bude pridaný pred odkaz."
+
+# @ upprev
+#: includes/options.php:304
+msgid "URL sufix"
+msgstr "Sufix odkazu."
+
+# @ upprev
+#: includes/options.php:306
+msgid "Will be added after link."
+msgstr "Bude pridaný za odkaz."
+
+# @ upprev
+#: includes/options.php:313
+msgid "Open link"
+msgstr "Otvor odkaz."
+
+# @ upprev
+#: includes/options.php:314
+msgid "Open link in new window."
+msgstr "Otvor odkaz v novom okne."
+
+# @ upprev
+#: includes/options.php:315
+msgid "Not recomended!"
+msgstr "Nedoporučujeme!"
+
+# @ upprev
+#: includes/options.php:322
+msgid "Google Analitics"
+msgstr "Google Analytics"
+
+# @ upprev
+#: includes/options.php:323
+msgid "I don't have GA tracking on site."
+msgstr "Ja nepoužívam GA pre meranie návštevnosti."
+
+# @ upprev
+#: includes/options.php:324 includes/options.php:350
+msgid "Turn it on if you don't use any other GA tracking plugin."
+msgstr "Zapni, ak nepoužívaš iné plugin pro Google Analytics."
+
+# @ upprev
+#: includes/options.php:331
+msgid "Google Analitics Account"
+msgstr "Účet Google Analytics"
+
+# @ upprev
+#: includes/options.php:332
+msgid "Replace UA-XXXXX-X with your web property ID."
+msgstr "Prepíš UA-XXXXX-X hodnotou GA ID pre tento web."
+
+# @ upprev
+#: includes/options.php:341
+msgid "Track views"
+msgstr "Sledovať zobrazenia."
+
+# @ upprev
+#: includes/options.php:342
+msgid "Track showing of upPrev box."
+msgstr "Sleduj zobrazovanie upPrev bubliny."
+
+# @ upprev
+#: includes/options.php:349
+msgid "Track clicks"
+msgstr "Sleduj kliky."
+
+# @ upprev
+#: includes/options.php:357
+msgid "Prevent bounce-rate"
+msgstr "Zabrániť započítavaniu bounce-rate."
+
+# @ upprev
+#: includes/options.php:358
+msgid "Turn it on to indicate that the event hit will not be used in bounce-rate calculation."
+msgstr "Zapni pro zaistení, že použítie bubliny nebude počítané ako bounce-rate (bounce-rate - udává, koľko procent návštevníkov odíde z webu po zobrazení iba jednej (prvej) stránky)"
+
+# @ upprev
+#: includes/options.php:367 includes/options.php:373
+msgid "Cache"
+msgstr "Cache"
+
+# @ upprev
+#: includes/options.php:374
+msgid "Use Transient Cache."
+msgstr "Použi Transient Cache."
+
+# @ upprev
+#: includes/options.php:375
+msgid "Using on large site (more than 1000 posts) may crash website."
+msgstr "Zapnutie na webe s viac ako 1000 článkami môže zpôsobiť pád webu."
+
+# @ upprev
+#: includes/options.php:382
+msgid "Transients Cache Lifetime."
+msgstr "Životnosť Transient Cache."
+
+# @ upprev
+#: includes/options.php:383
+msgid "In seconds, default one hour (3600s)."
+msgstr "V sekundách, štandardný čas je jedna hodina (3600s)."
+
+# @ upprev
+#: includes/options.php:392 includes/options.php:398
+msgid "Mobile devices"
+msgstr "Mobily"
+
+# @ upprev
+#: includes/options.php:399
+msgid "Hide for mobile devices."
+msgstr "Skryť pre mobily."
+
+# @ upprev
+#: includes/options.php:406
+msgid "Tablets"
+msgstr "Tablety"
+
+# @ upprev
+#: includes/options.php:407
+msgid "Hide for tablets too."
+msgstr "Skryť aj pre tablety."
+
+# @ upprev
+#: includes/options.php:408
+msgid "Works only when hidding for mobile devices is turn on."
+msgstr "Funguje len vtedy, keď je aktívne skrývanie pro mobily."
+
+# @ upprev
+#: includes/options.php:417
+msgid "Other"
+msgstr "Ostatné"
+
+# @ upprev
+#: includes/options.php:422
+msgid "Promote"
+msgstr "Podporovať"
+
+# @ upprev
+#: includes/options.php:423
+msgid "Help promote upPrev plugin?"
+msgstr "Chceš podporiť upPrev plugin?"
+
+# @ upprev
+#: includes/options.php:424
+msgid "This option will add the code <code>Previous posts box brought to you by &lt;a href='http://iworks.pl/produkty/wordpress/wtyczki/upprev/en/'&gt;upPrev plugin&lt;/a&gt;.</code>. Try turning it on, updating your options, and see the code in the code example to the right. These links and donations are greatly appreciated.</span>"
+msgstr "Toto nastavenie pridá do stránky tento kód: <code>Bublinu s Predchádzajúcimi príspevky vytvoril a nájdete ju na &lt;a href='http://iworks.pl/produkty/wordpress/wtyczki/upprev/en/'&gt;upPrev plugin&lt;/a&gt;.</code>. Skús to zapnút, a pozri ako to vyzerá. Za zapnutie, promo a odkazy predom ďakujeme."
+
+# @ upprev
+# @ default
+#: includes/options.php:430 upprev.php:515
+msgid "Donate"
+msgstr "Dary"
+
+# @ upprev
+#: includes/options.php:431
+msgid "You can buy me some special coffees if you appreciate my work, thank you! <a href=\"http://iworks.pl/donate/upprev.php\">Donate to this plugin.</a>"
+msgstr "Ak sa ti páči moja práca, môžeš mi kúpiť nejakú špeciálnu kávu. Ďakujem. <a href=\"http://iworks.pl/donate/upprev.php\">Poslať dar za tento plugin.</a>"
+
+# @ upprev
+#: includes/options.php:446
+msgid "Custom post type: "
+msgstr "Vlastný typ príspevku: "
+
+# @ yarpp
+# @ upprev
+#: includes/options.php:457 includes/options.php:460
+msgid "Related Posts (YARPP)"
+msgstr "Súvisiace príspevky (YARPP)"
+
+# @ upprev
+#: includes/options.php:458
+msgid ". Works only with post and/or pages."
+msgstr ". Funguje len s príspevkami a stránkami."
+
+# @ upprev
+#: includes/show_thubnail_on_admin_post_list.php:5
+msgid "Thumbnail"
+msgstr "Náhľad"
+
+# @ upprev
+#: includes/show_thubnail_on_admin_post_list.php:19
+msgid "None"
+msgstr "Žiadny"
+
+# @ upprev
+#: upprev.php:385
+msgid "More in"
+msgstr "Viac v"
+
+# @ upprev
+#: upprev.php:392
+msgid "Read more:"
+msgstr "Viac:"
+
+# @ upprev
+#: upprev.php:394
+msgid "Read previous post:"
+msgstr "Staršie príspevky:"
+
+# @ upprev
+#: upprev.php:464
+msgid "Close"
+msgstr "Zavrieť"
+
+# @ upprev
+#: upprev.php:467
+msgid "Previous posts box brought to you by <a href=\"http://iworks.pl/produkty/wordpress/wtyczki/upprev/en/\">upPrev plugin</a>."
+msgstr "Staršie príspevky prinášajú <a href=\"http://iworks.pl/produkty/wordpress/wtyczki/upprev/en/\">upPrev plugin</a>."
+
+# @ default
+#: upprev.php:513
+msgid "Settings"
+msgstr "Nastavenia"

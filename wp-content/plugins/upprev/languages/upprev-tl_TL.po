@@ -1,0 +1,559 @@
+# Copyright (C) 2011-2012 upPrev
+# This file is distributed under the same license as the upPrev package.
+msgid ""
+msgstr ""
+"Project-Id-Version: upPrev Previous Post Animated Notification 1.4.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/upprev\n"
+"POT-Creation-Date: 2012-12-13 20:34:01+00:00\n"
+"PO-Revision-Date: 2015-08-28 16:42+0900\n"
+"Last-Translator: Marcin Pietrzak <marcin@iworks.pl>\n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+
+#. Plugin Name of the plugin/theme
+#: upprev.php:212 upprev.php:213 upprev.php:528 admin/index.php:3
+msgid "upPrev"
+msgstr "upPrev"
+
+#: upprev.php:385
+msgid "More in"
+msgstr "Mas marami sa"
+
+#: upprev.php:392
+msgid "Read more:"
+msgstr "Magbasa ng higit pa:"
+
+#: upprev.php:394
+msgid "Read previous post:"
+msgstr "Basahin ang nakaraang post:"
+
+#: upprev.php:464
+msgid "Close"
+msgstr "Isara "
+
+#: upprev.php:467
+msgid ""
+"Previous posts box brought to you by <a href=\"http://iworks.pl/produkty/"
+"wordpress/wtyczki/upprev/en/\">upPrev plugin</a>."
+msgstr ""
+"Ang Previous post box ay hatid ng <a href=\"http://iworks.pl/produkty/"
+"wordpress/wtyczki/upprev/en/\">upPrev plugin</a>."
+
+#: upprev.php:513
+msgid "Settings"
+msgstr "Settings "
+
+#: upprev.php:515 includes/options.php:430
+msgid "Donate"
+msgstr "Magbigay ng Donasyon "
+
+#: includes/common.php:18
+msgid ""
+"<p>upPrev settings allows you to set the proprites of user notification "
+"showed when reader scroll down the page.</p>"
+msgstr ""
+"<p>Ang upPrev settings ay pinapayagan kang mag-set ng properties ng "
+"notipikasyon ng user na pinapakita kung ang mambabasa ay magso-scroll down "
+"pababa ng pahina.</p>"
+
+#: includes/show_thubnail_on_admin_post_list.php:5
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: includes/show_thubnail_on_admin_post_list.php:19
+msgid "None"
+msgstr "Wala"
+
+#: includes/options.php:27 includes/options.php:43
+msgid "Appearance"
+msgstr "Itsura"
+
+#: includes/options.php:33
+msgid "Schema"
+msgstr "Schema"
+
+#: includes/options.php:36 includes/options.php:52
+msgid "flyout"
+msgstr "flyout"
+
+#: includes/options.php:37 includes/options.php:53
+msgid "fade in/out"
+msgstr "fade in/out"
+
+#: includes/options.php:49
+msgid "Animation style"
+msgstr "Estilo ng animasyon"
+
+#: includes/options.php:60
+msgid "Position"
+msgstr "Posisyon"
+
+#: includes/options.php:63
+msgid "right"
+msgstr "kanan"
+
+#: includes/options.php:64
+msgid "left"
+msgstr "kaliwa"
+
+#: includes/options.php:72
+msgid "Margin bottom"
+msgstr "Puwang sa ibaba"
+
+#: includes/options.php:73 includes/options.php:82 includes/options.php:92
+msgid "px"
+msgstr "px"
+
+#: includes/options.php:81
+msgid "Margin side"
+msgstr "Puwang sa gilid "
+
+#: includes/options.php:83
+msgid "Left or right depending on position."
+msgstr "Kaliwa o kanan depende sa posisyon. "
+
+#: includes/options.php:91
+msgid "Box width"
+msgstr "Lapad ng kahon "
+
+#: includes/options.php:100
+msgid "Offset"
+msgstr "Offset "
+
+#: includes/options.php:101
+msgid "%"
+msgstr "%"
+
+#: includes/options.php:102
+msgid "Percentage of the page required to be scrolled to display a box."
+msgstr ""
+"Porsiyento ng pahina na kinakailangan na mai-scroll pababa upang maipakita "
+"ang kahon."
+
+#: includes/options.php:110
+msgid "Before HTML element."
+msgstr "Bago ang HTML element."
+
+#: includes/options.php:111
+msgid ""
+"If empty, all page length is taken for calculation. If not empty, make sure "
+"to use the ID or class of an existing element. Put # \"hash\" before the ID, "
+"or . \"dot\" before a class name."
+msgstr ""
+"Kung blanko, lahat ng haba ng pahina ay maisasama para sa kalkulasyon. Kung "
+"hindi blanko, siguraduhing gamitin ang ID o class ng umiiral na elemento. "
+"Ilagay ang # “hash” bago ang ID, i . “tuldok” bago ang class name."
+
+#: includes/options.php:118
+msgid "Box header"
+msgstr "Box header"
+
+#: includes/options.php:119
+msgid "Show box header."
+msgstr "Ipakita ang box header."
+
+#: includes/options.php:126
+msgid "Close button"
+msgstr "Close button "
+
+#: includes/options.php:127
+msgid "Show close button."
+msgstr "Ipakita ang close button. "
+
+#: includes/options.php:135
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: includes/options.php:166
+msgid "Content"
+msgstr "Nilalaman"
+
+#: includes/options.php:173
+msgid "Number of posts to show "
+msgstr "Bilang ng mga post na ipapakita"
+
+#: includes/options.php:174
+msgid ""
+"Not affected if using YARPP as choose method and YARPP version is lower than "
+"4.0."
+msgstr ""
+"Hindi apektado kung gumagamit ng YARPP bilang choose method at YARRP version "
+"na mas mababa sa 4.0."
+
+#: includes/options.php:181
+msgid "Content filters"
+msgstr "Content filters"
+
+#: includes/options.php:182
+msgid "Remove all filters."
+msgstr "Tanggalin ang lahat ng mga filter. "
+
+#: includes/options.php:183
+msgid ""
+"Untick this if you have some strange things in upPrev box, but unticked have "
+"a lot of chances breaks your layout."
+msgstr ""
+"Tanggalin ang marka kung mayroon kang hindi karaniwang bagay sa upPrev box, "
+"ngunit ang pagtanggal ng marka ay mayroong mataas na tsansa na magsisira ng "
+"iyong layout. "
+
+#: includes/options.php:190
+msgid "Previous entry choose method"
+msgstr "Nakaraang entry choose method "
+
+#: includes/options.php:193
+msgid "Just previous."
+msgstr "Nakaraan lamang. "
+
+#: includes/options.php:194
+msgid "Previous in category."
+msgstr "Nakaraan as kategorya. "
+
+#: includes/options.php:195
+msgid "Previous in tag."
+msgstr "Nakaraan sa tag. "
+
+#: includes/options.php:196
+msgid "Random entry."
+msgstr "Random na entry. "
+
+#: includes/options.php:205
+msgid "Taxonomy limit"
+msgstr "Limit ng taxonomy "
+
+#: includes/options.php:206
+msgid "Number of taxonomies (tags or categories) to show."
+msgstr "Bilang ng mga taxonomy (mga tag o mga kategorya) na ipapakita. "
+
+#: includes/options.php:207
+msgid "Default value: 0 (no limit)."
+msgstr "Default value: 0 (walang limit)."
+
+#: includes/options.php:214
+msgid "Match post type"
+msgstr "Magtugma ng post type "
+
+#: includes/options.php:215
+msgid "Display only for selected post types."
+msgstr "Ipakita lamang para sa piniling mga post type."
+
+#: includes/options.php:222
+msgid "Select post types"
+msgstr "Pumili ng mga post type "
+
+#: includes/options.php:223
+msgid "Show posts."
+msgstr "Ipakita ang mga post. "
+
+#: includes/options.php:224
+msgid "If not any, then default value is \"post\"."
+msgstr "Kung wala, ang default value ay “post”. "
+
+#: includes/options.php:227
+msgid "Posts."
+msgstr "Mga Post "
+
+#: includes/options.php:228
+msgid "Pages."
+msgstr "Mga Pahina."
+
+#: includes/options.php:229
+msgid "Any post type (include custom post types)."
+msgstr "Anu mang post type (isama ang custom post types)."
+
+#: includes/options.php:239
+msgid "Sticky posts"
+msgstr "Mga Sticky post"
+
+#: includes/options.php:240
+msgid "Ignore sticky posts."
+msgstr "Huwag pansinin ang mga sticky post."
+
+#: includes/options.php:250
+msgid "Excerpt"
+msgstr "Excerpt"
+
+#: includes/options.php:251
+msgid "Show excerpt."
+msgstr "Ipakita ang excerpt."
+
+#: includes/options.php:260
+msgid "Number of words to show."
+msgstr "Bilang ng salita na ipapakita. "
+
+#: includes/options.php:269
+msgid "Featured image"
+msgstr "Tampok na larawan "
+
+#: includes/options.php:270
+msgid "Show featured image."
+msgstr "Ipakita ang tampok na larawan."
+
+#: includes/options.php:279
+msgid "Featured image width."
+msgstr "Tampok na lapad ng larawan."
+
+#: includes/options.php:289
+msgid "Links"
+msgstr "Mga link"
+
+#: includes/options.php:295
+msgid "URL prefix"
+msgstr "URL prefix"
+
+#: includes/options.php:297
+msgid "Will be added before link."
+msgstr "Maidadagdag bago ang link."
+
+#: includes/options.php:304
+msgid "URL sufix"
+msgstr "URL suffix"
+
+#: includes/options.php:306
+msgid "Will be added after link."
+msgstr "Maidadagdag pagkatapo ng link. "
+
+#: includes/options.php:313
+msgid "Open link"
+msgstr "Buksan ang link. "
+
+#: includes/options.php:314
+msgid "Open link in new window."
+msgstr "Buksan ang link sa bagong window. "
+
+#: includes/options.php:315
+msgid "Not recomended!"
+msgstr "Hindi rekomendado!"
+
+#: includes/options.php:322
+msgid "Google Analitics"
+msgstr "Google Analytics"
+
+#: includes/options.php:323
+msgid "I don't have GA tracking on site."
+msgstr "Wala akong GA tracking sa site."
+
+#: includes/options.php:324 includes/options.php:350
+msgid "Turn it on if you don't use any other GA tracking plugin."
+msgstr "Paganahin ito kung hindi ka gumagamit ng ano mang GA tracking plugin."
+
+#: includes/options.php:331
+msgid "Google Analitics Account"
+msgstr "Google Analytics Account"
+
+#: includes/options.php:332
+msgid "Replace UA-XXXXX-X with your web property ID."
+msgstr "Palitan ang UA-XXXXX-X ng iyong web property ID."
+
+#: includes/options.php:341
+msgid "Track views"
+msgstr "I-track ang mga view "
+
+#: includes/options.php:342
+msgid "Track showing of upPrev box."
+msgstr "Track na nagpapakit ng upPrev box. "
+
+#: includes/options.php:349
+msgid "Track clicks"
+msgstr "I-track ang mga click"
+
+#: includes/options.php:357
+msgid "Prevent bounce-rate"
+msgstr "Pigilan ang bounce-rate"
+
+#: includes/options.php:358
+msgid ""
+"Turn it on to indicate that the event hit will not be used in bounce-rate "
+"calculation."
+msgstr ""
+"Paganahin ito upang ipahiwatig na ang event hit ay hindi magagamit sa "
+"kalkulasyon ng bounce-rate."
+
+#: includes/options.php:367 includes/options.php:373
+msgid "Cache"
+msgstr "Cache"
+
+#: includes/options.php:374
+msgid "Use Transient Cache."
+msgstr "Gumamit ng Transient Cache."
+
+#: includes/options.php:375
+msgid "Using on large site (more than 1000 posts) may crash website."
+msgstr ""
+"Ang paggamit sa malaking mga site (higit sa 1000 mga post) ay maaaring mag-"
+"crash ng website. "
+
+#: includes/options.php:382
+msgid "Transients Cache Lifetime."
+msgstr "Transients Cache Lifetime."
+
+#: includes/options.php:383
+msgid "In seconds, default one hour (3600s)."
+msgstr "Sa mga segundo, default ay isang oras (3600)"
+
+#: includes/options.php:392 includes/options.php:398
+msgid "Mobile devices"
+msgstr "Mga mobile device"
+
+#: includes/options.php:399
+msgid "Hide for mobile devices."
+msgstr "Itago para sa mga mobile device."
+
+#: includes/options.php:406
+msgid "Tablets"
+msgstr "Mga tablet "
+
+#: includes/options.php:407
+msgid "Hide for tablets too."
+msgstr "Itago din para sa mga tablet."
+
+#: includes/options.php:408
+msgid "Works only when hidding for mobile devices is turn on."
+msgstr "Gagana lamang kung ang “itago sa mga mobile device” ay gumagana. "
+
+#: includes/options.php:417
+msgid "Other"
+msgstr "Iba"
+
+#: includes/options.php:422
+msgid "Promote"
+msgstr "I-promote"
+
+#: includes/options.php:423
+msgid "Help promote upPrev plugin?"
+msgstr "Tulungang i-promote ang upPrev plugin?"
+
+#: includes/options.php:424
+msgid ""
+"This option will add the code <code>Previous posts box brought to you by &lt;"
+"a href='http://iworks.pl/produkty/wordpress/wtyczki/upprev/en/'&gt;upPrev "
+"plugin&lt;/a&gt;.</code>. Try turning it on, updating your options, and see "
+"the code in the code example to the right. These links and donations are "
+"greatly appreciated.</span>"
+msgstr ""
+"Ang opsiyon na ito ay magdadagdag ng code <code>Previous posts box brought "
+"to you by &lt;a href='http://iworks.pl/produkty/wordpress/wtyczki/upprev/"
+"en/'&gt;upPrev plugin&lt;/a&gt;.</code>."
+
+#: includes/options.php:431
+msgid ""
+"You can buy me some special coffees if you appreciate my work, thank you! <a "
+"href=\"http://iworks.pl/donate/upprev.php\">Donate to this plugin.</a>"
+msgstr ""
+"Maaari mo akong bigyan ng kape kung iyong pinapahalagahan ang aking trabaho, "
+"salamat! <a href=\"http://iworks.pl/donate/upprev.php\">Magbigay ng donasyon "
+"para sa plugin na ito.</a>"
+
+#: includes/options.php:446
+msgid "Custom post type: "
+msgstr "Custom post type: "
+
+#: includes/options.php:457 includes/options.php:460
+msgid "Related Posts (YARPP)"
+msgstr "Related Posts (YARPP)"
+
+#: includes/options.php:458
+msgid ". Works only with post and/or pages."
+msgstr ". Gumagana lamang sa post at/o mga pahina."
+
+#: includes/iworks.options.class.php:58
+msgid "An error occurred while getting the configuration."
+msgstr "May nangyaring error habang kinukuha ang configuration. "
+
+#: includes/iworks.options.class.php:309
+msgid "Save Changes"
+msgstr "I-save ang mga Pagbabago"
+
+#: admin/index.php:7
+msgid "upPrev options saved."
+msgstr "Na-save ang mga opsiyon ng upPrev."
+
+#: admin/index.php:24
+msgid "Loved this Plugin?"
+msgstr "Nagustuhan mo ba ang Plugin na ito? "
+
+#: admin/index.php:26
+msgid "Below are some links to help spread this plugin to other users"
+msgstr ""
+"May ibang mga link sa ibaba upang tulungan kang ipamahagi ang plugin na ito "
+"sa ibang users. "
+
+#: admin/index.php:28
+msgid "Give it a 5 star on Wordpress.org"
+msgstr "Bigyan ito ng 5 stars sa WordPress.org"
+
+#: admin/index.php:29
+msgid "Link to it so others can easily find it"
+msgstr "Maglink dito upang mas madali itong mahanap ng iba "
+
+#: admin/index.php:34
+msgid "Need Assistance?"
+msgstr "Kinakailangan ng Tulong?"
+
+#: admin/index.php:36
+msgid "Problems? The links bellow can be very helpful to you"
+msgstr "May mga problema? Ang mga link sa ibaba ay makakatulong sa iyo"
+
+#: admin/index.php:38
+msgid "http://wordpress.org/tags/upprev"
+msgstr "http://wordpress.org/tags/upprev"
+
+#: admin/index.php:38
+msgid "Wordpress Help Forum"
+msgstr "Wordpress Help Forum"
+
+#. Plugin URI of the plugin/theme
+msgid "http://iworks.pl/upprev/"
+msgstr "http://iworks.pl/upprev/"
+
+#. Description of the plugin/theme
+msgid ""
+"When scrolling post down upPrev will display a flyout box with a link to the "
+"previous post from the same category. Based on upPrev Previous Post Animated "
+"Notification by Jason Pelker, Grzegorz Krzyminski"
+msgstr ""
+"Kung magso-scroll pababa ng post, ang upPrev ay magbabakita ng flyout box na "
+"may link sa nakaraang post mula sa parehong kategorya. Base sa upPrev "
+"Previous Post Animated Notification ni Jason Pelker, Grzegorz Krzyminski"
+
+#. Author of the plugin/theme
+msgid "Marcin Pietrzak"
+msgstr "Marcin Pietrzak"
+
+#. Author URI of the plugin/theme
+msgid "http://iworks.pl/"
+msgstr "http://iworks.pl/"
+
+#~ msgid "Just next."
+#~ msgstr "Po prostu następny."
+
+#~ msgid "Transient Cache"
+#~ msgstr "Pamięć podręczna typu Transient"
+
+#~ msgid "Only pages."
+#~ msgstr "Pokaż tylko strony."
+
+#~ msgid "FAQs"
+#~ msgstr "FAQ"
+
+#~ msgid "Left"
+#~ msgstr "Wysuwaj od lewej"
+
+#~ msgid "Word limit:"
+#~ msgstr "Liczba słów:"
+
+#~ msgid "Where can I customize fonts, colors, etc.?"
+#~ msgstr "Gdzie mogę ustawić czcionkę, kolory i inne elementy?"
+
+#~ msgid "You can modify all css properties by edditing %1$s"
+#~ msgstr "Poprzez modyfikacje pliku %1$s."
+
+#~ msgid "How to add some space after upPrev?"
+#~ msgstr "Jak dodać więcej światła po upPrev?"
+
+#~ msgid "%1$d of %2$d articles"
+#~ msgstr "%1$d z %2$d artykułów"

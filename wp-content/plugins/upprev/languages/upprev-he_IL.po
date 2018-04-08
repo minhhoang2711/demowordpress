@@ -1,0 +1,535 @@
+# Copyright (C) 2010 upPrev
+# This file is distributed under the same license as the upPrev package.
+# Amiad Bareli <amiad at hatul.info>, 2013.
+# Amiad Bareli <amiad at hatul.info>, 2013.
+# Amiad Bareli <amiad at hatul.info>, 2013.
+# Amiad Bareli <amiad at hatul.info>, 2013.
+# Amiad Bareli <amiad at hatul.info>, 2013.
+# Amiad Bareli <amiad at hatul.info>, 2013.
+# Amiad Bareli <amiad at hatul.info>, 2013.
+# Amiad Bareli <amiad at hatul.info>, 2013.
+# Amiad Bareli <amiad at hatul.info>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: upPrev branch/3.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/upprev\n"
+"POT-Creation-Date: 2013-03-19 16:21:53+00:00\n"
+"PO-Revision-Date: 2013-07-20 23:07+0200\n"
+"Last-Translator: Udi's Blog <blog@udiburg.com>\n"
+"Language-Team: Hebrew\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. #-#-#-#-#  upprev.pot (upPrev branch/3.3)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/index.php:3 upprev.php:212 upprev.php:213 upprev.php:528
+msgid "upPrev"
+msgstr "upPrev"
+
+#: admin/index.php:7
+msgid "upPrev options saved."
+msgstr "אפשרויות upPrev נשמרו."
+
+#: admin/index.php:24
+msgid "Loved this Plugin?"
+msgstr "אוהבים את התוסף הזה?"
+
+#: admin/index.php:26
+msgid "Below are some links to help spread this plugin to other users"
+msgstr "למטה יש כמה קישורים שיעזרו להפיץ את התוסף הזה למשתמשים אחרים"
+
+#: admin/index.php:28
+msgid "Give it a 5 star on Wordpress.org"
+msgstr "דרג אותו ב־5 כוכבים ב־Wordpress.org"
+
+#: admin/index.php:29
+msgid "Link to it so others can easily find it"
+msgstr "קשרו אליו כדי שאחרים יוכלו למצוא אותו בקלות"
+
+#: admin/index.php:34
+msgid "Need Assistance?"
+msgstr "צריכים עזרה?"
+
+#: admin/index.php:36
+msgid "Problems? The links bellow can be very helpful to you"
+msgstr "בעיות? הקישורים למטה יכולים לעזור לכם מאוד"
+
+#: admin/index.php:38
+msgid "http://wordpress.org/tags/upprev"
+msgstr "http://wordpress.org/tags/upprev"
+
+#: admin/index.php:38
+msgid "Wordpress Help Forum"
+msgstr "פורום העזרה של וורדפרס"
+
+#: includes/common.php:18
+msgid ""
+"<p>upPrev settings allows you to set the proprites of user notification "
+"showed when reader scroll down the page.</p>"
+msgstr ""
+"<p>הגדרות upPrev מאפשרות לכם להגדיר את ההעדפות של ההודעה שתוצג למשתמש כשהוא "
+"גולל את הדף למטה.</p>"
+
+#: includes/iworks.options.class.php:58
+msgid "An error occurred while getting the configuration."
+msgstr "אירעה שגיאה בעת קבלת התצורה."
+
+#: includes/iworks.options.class.php:309
+msgid "Save Changes"
+msgstr "שמור שינויים"
+
+#: includes/options.php:27 includes/options.php:43
+msgid "Appearance"
+msgstr "מראה"
+
+#: includes/options.php:33
+msgid "Schema"
+msgstr "תרשים"
+
+#: includes/options.php:36 includes/options.php:52
+msgid "flyout"
+msgstr "ריחוף פנימה"
+
+#: includes/options.php:37 includes/options.php:53
+msgid "fade in/out"
+msgstr "התבהרות/התעממות"
+
+#: includes/options.php:49
+msgid "Animation style"
+msgstr "סגנון הנפשה"
+
+#: includes/options.php:60
+msgid "Position"
+msgstr "מיקום"
+
+#: includes/options.php:63
+msgid "right"
+msgstr "ימין"
+
+#: includes/options.php:64
+msgid "left"
+msgstr "שמאל"
+
+#: includes/options.php:72
+msgid "Margin bottom"
+msgstr "רווח למטה"
+
+#: includes/options.php:73 includes/options.php:82 includes/options.php:92
+msgid "px"
+msgstr "פיקסלים"
+
+#: includes/options.php:81
+msgid "Margin side"
+msgstr "רווח בצד"
+
+#: includes/options.php:83
+msgid "Left or right depending on position."
+msgstr "שמאל או ימין תלוי במיקום."
+
+#: includes/options.php:91
+msgid "Box width"
+msgstr "רוחב תיבה"
+
+#: includes/options.php:100
+msgid "Offset"
+msgstr "היסט"
+
+#: includes/options.php:101
+msgid "%"
+msgstr "%"
+
+#: includes/options.php:102
+msgid "Percentage of the page required to be scrolled to display a box."
+msgstr "אחוז העמוד שצריך להיגלל לפני הצגת התיבה."
+
+#: includes/options.php:110
+msgid "Before HTML element."
+msgstr "לפני אלמנט HTML."
+
+#: includes/options.php:111
+msgid ""
+"If empty, all page length is taken for calculation. If not empty, make sure "
+"to use the ID or class of an existing element. Put # \"hash\" before the ID, "
+"or . \"dot\" before a class name."
+msgstr ""
+"אם ריק, כל אורך העמוד יילקח בחשבון. אם לא ריק, היו בטוחים שאתם משתמשים במזהה "
+"או מחלקה של אלמנט קיים. שים # סולמית לפני מזהה או . נקודה לפני שם מחלקה."
+
+#: includes/options.php:118
+msgid "Box header"
+msgstr "כותרת תיבה"
+
+#: includes/options.php:119
+msgid "Show box header."
+msgstr "הצג כותרת תיבה."
+
+#: includes/options.php:126
+msgid "Close button"
+msgstr "כפתור סגירה"
+
+#: includes/options.php:127
+msgid "Show close button."
+msgstr "הצג כפתור סגירה"
+
+#: includes/options.php:135
+msgid "Custom CSS"
+msgstr "CSS מותאם אישית"
+
+#: includes/options.php:166
+msgid "Content"
+msgstr "תוכן"
+
+#: includes/options.php:173
+msgid "Number of posts to show "
+msgstr "מספר פוסטים להצגה"
+
+#: includes/options.php:174
+msgid ""
+"Not affected if using YARPP as choose method and YARPP version is lower than "
+"4.0."
+msgstr "לא משפיע אם אתם משתמשים ב־YARPP כשיטת בחירה וגרסת YARPP נמוכה מ־4.0."
+
+#: includes/options.php:181
+msgid "Content filters"
+msgstr "מסנני תוכן"
+
+#: includes/options.php:182
+msgid "Remove all filters."
+msgstr "הסר את כל המסננים."
+
+#: includes/options.php:183
+msgid ""
+"Untick this if you have some strange things in upPrev box, but unticked have "
+"a lot of chances breaks your layout."
+msgstr ""
+"הסר את הסימון אם קורים דברים מוזרים בתיבת upPrev, אבל רוב הסיכויים שהסרת "
+"הסימון תשבור את הפריסה שלך."
+
+#: includes/options.php:190
+msgid "Previous entry choose method"
+msgstr "שיטת בחירת פוסט קודם"
+
+#: includes/options.php:193
+msgid "Just previous."
+msgstr "פשוט קודם."
+
+#: includes/options.php:194
+msgid "Previous in category."
+msgstr "קודם בקטגוריה."
+
+#: includes/options.php:195
+msgid "Previous in tag."
+msgstr "קודם בתגית."
+
+#: includes/options.php:196
+msgid "Random entry."
+msgstr "פוסט אקראי."
+
+#: includes/options.php:205
+msgid "Taxonomy limit"
+msgstr "הגבלת טקסנומיות"
+
+#: includes/options.php:206
+msgid "Number of taxonomies (tags or categories) to show."
+msgstr "מספר טקסונומית (תגיות או קטגוריות) להצגה."
+
+#: includes/options.php:207
+msgid "Default value: 0 (no limit)."
+msgstr "ערך בררת מחדל: 0 (ללא הגבלה)."
+
+#: includes/options.php:214
+msgid "Match post type"
+msgstr "התאמת סוג פוסט"
+
+#: includes/options.php:215
+msgid "Display only for selected post types."
+msgstr "הצג רק מסוגי הפוסט הנבחרים."
+
+#: includes/options.php:222
+msgid "Select post types"
+msgstr "בחר סוגי פוסט"
+
+#: includes/options.php:223
+msgid "Show posts."
+msgstr "הצג פוסטים."
+
+#: includes/options.php:224
+msgid "If not any, then default value is \"post\"."
+msgstr "אם לא נבחר אז ערך בררת המחדל הוא „פוסט”."
+
+#: includes/options.php:227
+msgid "Posts."
+msgstr "פוסטים."
+
+#: includes/options.php:228
+msgid "Pages."
+msgstr "עמודים."
+
+#: includes/options.php:229
+msgid "Any post type (include custom post types)."
+msgstr "כל סוג פוסט (כולל סוגי פוסטים מותאמים אישית)."
+
+#: includes/options.php:239
+msgid "Sticky posts"
+msgstr "פוסטים דביקים"
+
+#: includes/options.php:240
+msgid "Ignore sticky posts."
+msgstr "התעלם מפוסטים דביקים."
+
+#: includes/options.php:250
+msgid "Excerpt"
+msgstr "תקציר"
+
+#: includes/options.php:251
+msgid "Show excerpt."
+msgstr "הצג תקציר."
+
+#: includes/options.php:260
+msgid "Number of words to show."
+msgstr "מספר מילים להצגה"
+
+#: includes/options.php:269
+msgid "Featured image"
+msgstr "תמונה ממוזערת"
+
+#: includes/options.php:270
+msgid "Show featured image."
+msgstr "הצג תמונה ממוזערת."
+
+#: includes/options.php:279
+msgid "Featured image width."
+msgstr "רוחב תמונה ממוזערת."
+
+#: includes/options.php:289
+msgid "Links"
+msgstr "קישורים"
+
+#: includes/options.php:295
+msgid "URL prefix"
+msgstr "תחילית כתובת"
+
+#: includes/options.php:297
+msgid "Will be added before link."
+msgstr "יתווסף לפני הקישור"
+
+#: includes/options.php:304
+msgid "URL sufix"
+msgstr "סיומת כתובת"
+
+#: includes/options.php:306
+msgid "Will be added after link."
+msgstr "יתווסף אחרי הקישור"
+
+#: includes/options.php:313
+msgid "Open link"
+msgstr "פתח קישור"
+
+#: includes/options.php:314
+msgid "Open link in new window."
+msgstr "פתח קישור בחלון חדש"
+
+#: includes/options.php:315
+msgid "Not recomended!"
+msgstr "לא מומלץ!"
+
+#: includes/options.php:322
+msgid "Google Analitics"
+msgstr "Google Analitics"
+
+#: includes/options.php:323
+msgid "I don't have GA tracking on site."
+msgstr "אין מעקב של Google Analitics באתר"
+
+#: includes/options.php:324 includes/options.php:350
+msgid "Turn it on if you don't use any other GA tracking plugin."
+msgstr "הפעל אם אינך משתמש בתוסף אחר של Google Analitics."
+
+#: includes/options.php:331
+msgid "Google Analitics Account"
+msgstr "חשבון Google Analitics"
+
+#: includes/options.php:332
+msgid "Replace UA-XXXXX-X with your web property ID."
+msgstr "החלף את UA-XXXXX-X במזהה שלך."
+
+#: includes/options.php:341
+msgid "Track views"
+msgstr "מעקב צפיות"
+
+#: includes/options.php:342
+msgid "Track showing of upPrev box."
+msgstr "מעקב אחרי הצגת תיבת upPrev"
+
+#: includes/options.php:349
+msgid "Track clicks"
+msgstr "מעקב לחיצות"
+
+#: includes/options.php:357
+msgid "Prevent bounce-rate"
+msgstr "מנע שיעור נטישה"
+
+#: includes/options.php:358
+msgid ""
+"Turn it on to indicate that the event hit will not be used in bounce-rate "
+"calculation."
+msgstr "הפעל כדי שלחיצה לא תספר בחישוב שיעור הנטישה."
+
+#: includes/options.php:367 includes/options.php:373
+msgid "Cache"
+msgstr "מטמון"
+
+#: includes/options.php:374
+msgid "Use Transient Cache."
+msgstr "השתמש במטמון Transient."
+
+#: includes/options.php:375
+msgid "Using on large site (more than 1000 posts) may crash website."
+msgstr "שימוש באתר גדול (יותר מ־1000 פוסטים) אולי יפיל את האתר."
+
+#: includes/options.php:382
+msgid "Transients Cache Lifetime."
+msgstr "זמן מטמון של Transients."
+
+#: includes/options.php:383
+msgid "In seconds, default one hour (3600s)."
+msgstr "בשניות, בררת המחדל היא שעה (3600 שניות)."
+
+#: includes/options.php:392 includes/options.php:398
+msgid "Mobile devices"
+msgstr "התקנים ניידים"
+
+#: includes/options.php:399
+msgid "Hide for mobile devices."
+msgstr "הסתר בטלפונים ניידים"
+
+#: includes/options.php:406
+msgid "Tablets"
+msgstr "מחשבי לוח"
+
+#: includes/options.php:407
+msgid "Hide for tablets too."
+msgstr "הסתר גם במחשבי לוח"
+
+#: includes/options.php:408
+msgid "Works only when hidding for mobile devices is turn on."
+msgstr "עובד רק כשההסתרה בטלפונים ניידים מופעלת."
+
+#: includes/options.php:417
+msgid "Other"
+msgstr "אחר"
+
+#: includes/options.php:422
+msgid "Right-to-Left Language Support"
+msgstr "תמיכה בשפות מצד ימין לשמאל"
+
+#: includes/options.php:423
+msgid "Add support for language written in a right-to-left direction."
+msgstr "הוסיפו תמיכה לשפות הכתובות מימין לשמאל."
+
+#: includes/options.php:430
+msgid "Promote"
+msgstr "קידום"
+
+#: includes/options.php:431
+msgid "Help promote upPrev plugin?"
+msgstr "עזרה בקידום התוסף upPrev?"
+
+#: includes/options.php:432
+msgid ""
+"This option will add the code <code>Previous posts box brought to you by &lt;"
+"a href='http://iworks.pl/produkty/wordpress/wtyczki/upprev/en/'&gt;upPrev "
+"plugin&lt;/a&gt;.</code>. Try turning it on, updating your options, and see "
+"the code in the code example to the right. These links and donations are "
+"greatly appreciated.</span>"
+msgstr ""
+"אפשרות זו תוסיף את הקוד <code>תיבת פוסטים קודמים מאת &lt;a href='http://"
+"iworks.pl/produkty/wordpress/wtyczki/upprev/en/'&gt;התוסף upPrev&lt;/a&gt;.</"
+"code>. נסה להפעיל את זה, לעדכן את האפשרויות שלך ולראות את הקוד בדוגמה משמאל. "
+"הקישורים האלה והתרומות מוערכים מאוד.</span>"
+
+#: includes/options.php:438 upprev.php:515
+msgid "Donate"
+msgstr "תרום"
+
+#: includes/options.php:439
+msgid ""
+"You can buy me some special coffees if you appreciate my work, thank you! <a "
+"href=\"http://iworks.pl/donate/upprev.php\">Donate to this plugin.</a>"
+msgstr ""
+"אתה יכול לקנות לי קפה מיוחד אם אתה מעריך את עבודתי, תודה! <a href=\"http://"
+"iworks.pl/donate/upprev.php\">תרום לתוסף.</a>"
+
+#: includes/options.php:454
+msgid "Custom post type: "
+msgstr "סוג פוסט מותאם אישית:"
+
+#: includes/options.php:465 includes/options.php:468
+msgid "Related Posts (YARPP)"
+msgstr "פוסטים קשורים (YARPP)"
+
+#: includes/options.php:466
+msgid ". Works only with post and/or pages."
+msgstr ". עובד רק עם פוסט ו/או עמודים."
+
+#: includes/show_thubnail_on_admin_post_list.php:5
+msgid "Thumbnail"
+msgstr "תמונה ממוזערת"
+
+#: includes/show_thubnail_on_admin_post_list.php:19
+msgid "None"
+msgstr "ללא"
+
+#: upprev.php:385
+msgid "More in"
+msgstr "עוד בנושא"
+
+#: upprev.php:392
+msgid "Read more:"
+msgstr "קראו גם את:"
+
+#: upprev.php:394
+msgid "Read previous post:"
+msgstr "קראו את הפוסט הקודם:"
+
+#: upprev.php:464
+msgid "Close"
+msgstr "סגור"
+
+#: upprev.php:467
+msgid ""
+"Previous posts box brought to you by <a href=\"http://iworks.pl/produkty/"
+"wordpress/wtyczki/upprev/en/\">upPrev plugin</a>."
+msgstr ""
+"תיבת פוסטים קודמים מאת <a href=\"http://iworks.pl/produkty/wordpress/wtyczki/"
+"upprev/en/\">התוסף upPrev</a>."
+
+#: upprev.php:513
+msgid "Settings"
+msgstr "הגדרות"
+
+#. Plugin URI of the plugin/theme
+msgid "http://iworks.pl/upprev/"
+msgstr "http://iworks.pl/upprev/"
+
+#. Description of the plugin/theme
+msgid ""
+"When scrolling post down upPrev will display a flyout box with a link to the "
+"previous post from the same category. Based on upPrev Previous Post Animated "
+"Notification by Jason Pelker, Grzegorz Krzyminski"
+msgstr ""
+"כשהפוסט נגלל מטה upPrev יציג תיבה מרחפת עם קישור לפוסט הקודם בקטגוריה. מבוסס "
+"על upPrev Previous Post Animated Notification מאת Jason Pelker ו־Grzegorz "
+"Krzyminski"
+
+#. Author of the plugin/theme
+msgid "Marcin Pietrzak"
+msgstr "Marcin Pietrzak"
+
+#. Author URI of the plugin/theme
+msgid "http://iworks.pl/"
+msgstr "http://iworks.pl/"
